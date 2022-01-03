@@ -166,7 +166,7 @@ async function getHeroesWithGoodStamina(questingHeroes, quest, maxAttempts, prof
     //console.log(`${professional ? "Professional" : "Non-professional" } ${quest.name} quest due to start at ${displayTime(hero.state.staminaFullAt)}`)
 
     if (!heroesWithGoodStamina.length) {
-        console.log(`${professional ? "Professional" : "Non-professional" } ${quest.name} quest is not ready to start.`);
+        //console.log(`${professional ? "Professional" : "Non-professional" } ${quest.name} quest is not ready to start.`);
     }
 
     return heroesWithGoodStamina;

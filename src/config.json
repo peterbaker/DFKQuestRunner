@@ -1,6 +1,6 @@
 {
     "wallet": {
-        "address": "<your 0x Wallet Address>",
+        "address": "0x9E24184F3428B6B58eB9cd3344e075Ea6cde3747",
         "encryptedWalletPath": "./w.json"
     },
 
@@ -8,19 +8,19 @@
     "nonProfessionMaxAttempts": 3,
     "maxQuestGroupSize": 6,
 
-    "pollingInterval": "60000",
+    "pollingInterval": "180000",
 
     "quests": [
         {
             "name": "Fishing",
-            "professionHeroes": [ 34567 ],
-            "nonProfessionHeroes": [ 12345, 23456 ],
+            "professionHeroes": [ 64430 ],
+            "nonProfessionHeroes": [ 38844 ],
             "contractAddress": "0xE259e8386d38467f0E7fFEdB69c3c9C935dfaeFc"
         },
         {
             "name": "Foraging",
-            "professionHeroes": [ 45678, 56789 ],
-            "nonProfessionHeroes": [ 67890 ],
+            "professionHeroes": [ ],
+            "nonProfessionHeroes": [ 51235 ],
             "contractAddress": "0x3132c76acF2217646fB8391918D28a16bD8A8Ef4"
         },
         {
@@ -34,7 +34,7 @@
     "questContract": "0x5100Bd31b822371108A0f63DCFb6594b9919Eaf4",
     "heroContract": "0x5f753dcdf9b1ad9aabc1346614d1f4746fd6ce5c",
 
-    "useBackupRpc": false,
+    "useBackupRpc": true,
     "rpc" : {
         "harmonyRpc": "https://api.harmony.one",
         "poktRpc": "https://harmony-0-rpc.gateway.pokt.network"
